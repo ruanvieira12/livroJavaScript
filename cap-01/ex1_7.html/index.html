@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jantar</title>
+    <style>
+        body{
+           background-image: linear-gradient(to right,  rgba(52, 35, 165, 0.862), rgba(82, 41, 169, 0.708), rgba(82, 98, 164, 0.74) ) 
+        }
+    </style>
+</head>
+<body>
+    <h1>Calculando o valor do jantar e utilizando o metodo toFixed(2)</h1>
+<p>O método "toFixed(2)" é adicionada ás variáveis de saída. Ele serve para indicar que o valor a ser apresentado deve conter 2 casas decimais</p>
+    <script>
+        const ValorJantar = Number(prompt("Quantos deu o valor do jantar?"))
+        const Taxagarcom= ValorJantar*0.10
+        const total= Taxagarcom+ValorJantar
+        alert(`Taxa Garçom R$: ${Taxagarcom.toFixed(2)}\nTotal do Jantar R$: ${total.toFixed(2)}`)
+    </script>
+    <pre>
+        const ValorJantar = Number(prompt("Quantos deu o valor do jantar?"))
+        const Taxagarcom= ValorJantar*0.10
+        const total= Taxagarcom+ValorJantar
+        alert(`Taxa Garçom R$: ${Taxagarcom.toFixed(2)}\nTotal do Jantar R$: ${total.toFixed(2)}`)
+        </code>
+</body>
+</html>
